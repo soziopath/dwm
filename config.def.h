@@ -135,6 +135,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_comma,  spawn,          SHCMD("skippy-xd") },
 	/* { MODKEY,                       XK_comma,  focusmon,       {.i = -1 } }, */
 	/* { MODKEY,                       XK_period, focusmon,       {.i = +1 } }, */
+	{ MODKEY,                       XK_Tab,    spawn,          SHCMD("skippy-xd") },
 	{ MODKEY,                       XK_n,      shiftview,      {.i = +1 } },
 	{ MODKEY,                       XK_p,      shiftview,      {.i = -1 } },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} }, // tile
