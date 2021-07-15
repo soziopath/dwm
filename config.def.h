@@ -123,7 +123,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_period, togglescratch,  {.v = scratchpadcmd } },
 	{ MODKEY,                       XK_q,      killclient,     {0} },
-	{ MODKEY,                       XK_space,  spawn,          SHCMD("rofi -show drun") },
+	{ MODKEY,                       XK_space,  spawn,          SHCMD("dmenu_run -fn 'mono:pixelsize=19'") },
 	{ MODKEY|ShiftMask,             XK_space,  setlayout,      {0} }, 
 	{ MODKEY,			            XK_w,      spawn,		   SHCMD("$BROWSER") },
 	{ MODKEY,			            XK_r,      spawn,		   SHCMD("$TERMINAL -e ranger") },
