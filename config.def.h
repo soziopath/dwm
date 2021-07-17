@@ -29,6 +29,7 @@ static const char col_red[]         = "#d54646";
 static const char col_green[]       = "#23d18b";
 static const char col_yellow[]      = "#d7ba7d";
 static const char col_blue[]        = "#81a1c1";
+static const char col_blue2[]        = "#186ac4";
 static const char col_magenta[]     = "#c586c0";
 static const char col_white[]       = "#abb2bf";
 static const char col_bg_alt[]      = "#292d38";
@@ -39,10 +40,10 @@ static const char *colors[][3]      = {
 	[SchemeSel]  = { col_gray4, col_blue,  col_blue  },
 	[SchemeStatus]  = { col_gray4, col_gray1,  "#000000"  }, // Statusbar right {text,background,not used but cannot be empty}
 
-	[SchemeTagsSel]  = { col_gray2, col_blue,  "#000000"  }, // Tagbar left selected {text,background,not used but cannot be empty}
+	[SchemeTagsSel]  = { col_gray4, col_blue2,  "#000000"  }, // Tagbar left selected {text,background,not used but cannot be empty}
     [SchemeTagsNorm]  = { col_gray4, col_gray1,  "#000000"  }, // Tagbar left unselected {text,background,not used but cannot be empty}
 
-    [SchemeInfoSel]  = { col_gray3, col_bg_alt,  "#000000"  }, // infobar middle  selected {text,background,not used but cannot be empty}
+    [SchemeInfoSel]  = { col_gray4, col_blue2,  "#000000"  }, // infobar middle  selected {text,background,not used but cannot be empty}
     [SchemeInfoNorm]  = { col_gray3, col_gray1,  "#000000"  }, // infobar middle  unselected {text,background,not used but cannot be empty}
 };
 
