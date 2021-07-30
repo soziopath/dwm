@@ -133,7 +133,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,			    XK_v,      spawn,		   SHCMD("mpv /dev/video0") },
 	{ MODKEY,                       XK_comma,  spawn,          SHCMD("skippy-xd") },
 	{ MODKEY,                       XK_Tab,    spawn,          SHCMD("skippy-xd") },
-	{ MODKEY,                       XK_minus,  spawn,          SHCMD("clipmenu") },
+	{ MODKEY,                       XK_minus,  spawn,          SHCMD("clipmenu -l 30") },
 	{ MODKEY,                       XK_n,      shiftview,      {.i = +1 } },
 	{ MODKEY,                       XK_p,      shiftview,      {.i = -1 } },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} }, // tile
