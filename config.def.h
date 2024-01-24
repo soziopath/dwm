@@ -102,9 +102,9 @@ static const Layout layouts[] = {
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
-static const char *termcmd[]  = { "st", NULL };
+static const char *termcmd[]  = { "kitty", "-1", NULL };
 static const char scratchpadname[] = "scratchpad";
-static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34", NULL };
+static const char *scratchpadcmd[] = { "kitty", "-1", "-T", scratchpadname, NULL };
 
 #include <X11/XF86keysym.h>
 #include "./patches/shiftview.c"
