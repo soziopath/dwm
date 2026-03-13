@@ -32,12 +32,13 @@ static const char col_blue[]        = "#81a1c1";
 static const char col_blue2[]       = "#186ac4";
 static const char col_magenta[]     = "#c586c0";
 static const char col_white[]       = "#abb2bf";
+static const char col_cyan2[]       = "#63b3bb";
 static const char col_bg_alt[]      = "#292d38";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray4, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_blue,  col_blue  },
+	[SchemeSel]  = { col_gray4, col_cyan2,  col_blue  },
 	[SchemeStatus]  = { col_gray4, col_gray1,  "#000000"  }, // Statusbar right {text,background,not used but cannot be empty}
 
 	[SchemeTagsSel]  = { col_gray4, col_blue2,  "#000000"  }, // Tagbar left selected {text,background,not used but cannot be empty}
